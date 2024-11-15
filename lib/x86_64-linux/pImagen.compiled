@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1625802185"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/labinfo02/Documentos/906-compartido2/pIMAHistograma/lib/x86_64-linux -Fu/usr/share/lazarus/3.6.0/lcl/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/3.6.0/lcl/units/x86_64-linux -Fu/usr/share/lazarus/3.6.0/components/freetype/lib/x86_64-linux -Fu/usr/share/lazarus/3.6.0/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/3.6.0/packager/units/x86_64-linux -Fu/home/labinfo02/Documentos/906-compartido2/pIMAHistograma/ -FU/home/labinfo02/Documentos/906-compartido2/pIMAHistograma/lib/x86_64-linux/ -FE/home/labinfo02/Documentos/906-compartido2/pIMAHistograma/ -o/home/labinfo02/Documentos/906-compartido2/pIMAHistograma/pImagen -dLCL -dLCLgtk2 pImagen.lpr"/>
+</CONFIG>

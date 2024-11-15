@@ -1,0 +1,183 @@
+object frmHistograma: TfrmHistograma
+  Left = 242
+  Height = 284
+  Top = 181
+  Width = 819
+  Caption = 'Histograma'
+  ClientHeight = 284
+  ClientWidth = 819
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '3.2.0.0'
+  object bAplicar: TButton
+    Left = 648
+    Height = 39
+    Top = 184
+    Width = 163
+    Caption = 'Aplicar'
+    TabOrder = 0
+    OnClick = bAplicarClick
+  end
+  object bCerrar: TButton
+    Left = 648
+    Height = 39
+    Top = 232
+    Width = 163
+    Caption = 'Cerrar'
+    TabOrder = 1
+    OnClick = bCerrarClick
+  end
+  object imgHisto: TImage
+    Left = 24
+    Height = 232
+    Top = 17
+    Width = 600
+  end
+  object Label1: TLabel
+    Left = 240
+    Height = 17
+    Top = 256
+    Width = 155
+    Caption = 'T  o  n  o  s     d e    g  r  i  s'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 17
+    Top = 48
+    Width = 8
+    Caption = 'F'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 17
+    Top = 64
+    Width = 6
+    Caption = 'r'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 17
+    Top = 80
+    Width = 8
+    Caption = 'e'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 17
+    Top = 96
+    Width = 7
+    Caption = 'c'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 8
+    Height = 17
+    Top = 112
+    Width = 8
+    Caption = 'u'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 17
+    Top = 128
+    Width = 8
+    Caption = 'e'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 8
+    Height = 17
+    Top = 144
+    Width = 8
+    Caption = 'n'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 9
+    Height = 17
+    Top = 160
+    Width = 7
+    Caption = 'c'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 11
+    Height = 17
+    Top = 176
+    Width = 4
+    Caption = 'i'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 9
+    Height = 17
+    Top = 192
+    Width = 8
+    Caption = 'a'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 21
+    Height = 17
+    Top = 256
+    Width = 8
+    Caption = '0'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 616
+    Height = 17
+    Top = 256
+    Width = 24
+    Caption = '255'
+    ParentColor = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 672
+    Height = 151
+    Top = 16
+    Width = 112
+    Caption = 'Canales'
+    ClientHeight = 133
+    ClientWidth = 110
+    TabOrder = 2
+    object chkRojo: TCheckBox
+      Left = 16
+      Height = 23
+      Top = 8
+      Width = 57
+      Caption = 'Rojo'
+      TabOrder = 0
+    end
+    object chkVerde: TCheckBox
+      Left = 16
+      Height = 23
+      Top = 40
+      Width = 66
+      Caption = 'Verde'
+      TabOrder = 1
+    end
+    object chkAzul: TCheckBox
+      Left = 16
+      Height = 23
+      Top = 72
+      Width = 55
+      Caption = 'Azul'
+      TabOrder = 2
+    end
+    object chkGris: TCheckBox
+      Left = 16
+      Height = 23
+      Top = 104
+      Width = 53
+      Caption = 'Gris'
+      TabOrder = 3
+    end
+  end
+end
